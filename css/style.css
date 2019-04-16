@@ -164,7 +164,37 @@ body {
 .skills {
     padding: 50px 20px;
 }
+.btn-flat-border {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: solid 2px #67c5ff;
+    border-radius: 3px;
+    transition: .4s;
+}
+.git {
+    color: #280042;
+    border: solid 2px #fff;
+    background-color:#fff;
+}
+.qiita {
+    color: #18fd92;
+    border: solid 2px #18fd92;
+}
 
+.btn-flat-border:hover {
+background: #67c5ff;
+color: white;
+}
+.git:hover {
+    background: #280042;
+    color: white;
+}
+.qiita:hover {
+    background: #18fd92;
+    color: white;
+}
 
 /* --------------------------------
  * gallery
@@ -325,4 +355,5 @@ body {
         width: 336px;
         height: 189px;
     }
+      
 }
