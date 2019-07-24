@@ -17,9 +17,10 @@
                 <a class="header-nav-link header-nav-logo" href="#"><li class="header-nav-item">Portfolio[R]</li></a>
                 <a class="header-nav-link" href="#about"><li class="header-nav-item">ABOUT</li></a>
                 <a class="header-nav-link" href="#skills"><li class="header-nav-item">SKILLS</li></a>
+                <a class="header-nav-link" href="#works"><li class="header-nav-item">WORKS</li></a>
                 <a class="header-nav-link" href="#gallery"><li class="header-nav-item">GALLERY</li></a>
-                <a class="header-nav-link" href="#video"><li class="header-nav-item">VIDEO</li></a>
-                <a class="header-nav-link" href="#contact"><li class="header-nav-item">LINK</li></a>
+                <!-- <a class="header-nav-link" href="#video"><li class="header-nav-item">VIDEO</li></a> -->
+                <a class="header-nav-link" href="#contact"><li class="header-nav-item">CONTACKT</li></a>
             </ul>
         </div>
     </header>
@@ -48,13 +49,107 @@
     </section>
     <section class="skills" id="skills">
         <h2 class="heading">SKILLS</h2>
-        <p>HTML / CSS / JavaScript<br>AngularJS / Vue.js / node.js<br>Java / Ruby / ruby on rails<br>Git / AWS / PostgreSQL / MySQL<br>Lightroom / Photoshop / Illustrator</p>
-        <div class="link-wrapper">
+        <p>HTML / CSS / JavaScript<br><font color="red" ><b>React</b></font> / <font color="red" ><b>AngularJS</b></font> / Vue.js / <font color="red" ><b>Node.js</b></font><br><font color="red" ><b>Java</b></font> / Ruby / ruby on rails<br><font color="red" ><b>MySQL</b></font> / Git / AWS / <font color="red" ><b>PostgreSQL</b></font><br><font color="red" ><b>Lightroom</b></font> / Photoshop / Illustrator</p>
+        <!-- <div class="link-wrapper">
             <div class="link-box">
                     <a href="https://github.com/Rickey6727" class="btn-flat-border git">to Github</a>
                     <a href="https://qiita.com/rinimaruranran" class="btn-flat-border qiita">to Qiita</a>
             </div>
-        </div>       
+        </div> -->
+    </section>
+    <section class="works" id="works">
+        <h2 class="heading">WORKS</h2>
+        <div class="works-wrapper">
+            <ul class="works-list">
+                <li class="works-list-item">
+                        <div class="works-list-item-content-wrapper">
+                            <div class="works-list-item-image">
+                                <a href="https://github.com/Rickey6727">
+                                    <img src="images/github.png" alt="">
+                                </a>
+                            </div>
+                            <div class="works-list-item-desc">
+                                <h3>Github</h3>
+                                <p>
+                                    作成したプロジェクトはGithub上に公開しています。
+                                    <br>
+                                    社内開発のものは公開できませんので、ご了承ください。
+                                </p>
+                            </div>
+                        </div>
+                </li>
+                <li class="works-list-item">
+                    <div class="works-list-item-content-wrapper">
+                        <div class="works-list-item-image">
+                            <a href="http://rinimaru.com/home/">
+                                <img src="images/rinimarublog.png" alt="">
+                            </a>
+                        </div>
+                        <div class="works-list-item-desc">
+                            <h3>RinimaruBLOG</h3>
+                            <p>
+                                技術ブログを運営して、自分が勉強した内容を記事にしています。
+                                <br>
+                                WordPressで構築しています。
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="works-list-item">
+                    <div class="works-list-item-content-wrapper">
+                        <div class="works-list-item-image">
+                            <a href="https://react-tasklist-frontend.herokuapp.com/">
+                                <img src="images/tasklist.png" alt="">
+                            </a>
+                        </div>
+                        <div class="works-list-item-desc">
+                            <h3>tasklist</h3>
+                            <p>
+                                React、Node.js、MySQLで作成したタスクアプリです。
+                                <br>
+                                Herokuで公開しています。
+                                <br>
+                                （ Herokuの起動に1分ほどかかる場合があります。）
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="works-list-item">
+                    <div class="works-list-item-content-wrapper">
+                        <div class="works-list-item-image">
+                            <a href="https://rickey6727.github.io/react-portfolio/">
+                                <img src="" alt="">
+                            </a>
+                        </div>
+                        <div class="works-list-item-desc">
+                            <h3>ReactPractice</h3>
+                            <p>
+                                Reactのエコシステムを色々試しています。
+                                <br>
+                                GithubPagesで公開しています。随時更新中です。
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="works-list-item">
+                    <div class="works-list-item-content-wrapper">
+                        <div class="works-list-item-image">
+                            <a href="">
+                                <img src="" alt="">
+                            </a>
+                        </div>
+                        <div class="works-list-item-desc">
+                            <h3>mongoSocket</h3>
+                            <p>
+                                mongoDBとWebSocketを使ったチャットアプリです。
+                                <br>
+                                絶賛開発中！
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </section>
     <section class="gallery" id="gallery">
         <h2 class="heading">GALLERY</h2>
@@ -112,7 +207,7 @@
         </div>
     </section>
     
-    <section class="contact" id="video">
+    <!-- <section class="contact" id="video">
         <h2 class="heading">VIDEO</h2>
         <div class="video-wrapper">
             <iframe class="video" width="840" height="472" src="https://www.youtube.com/embed/v81PDp0x5Zk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -121,16 +216,14 @@
                 <input type="button" value="view more">
             </a>
         </div>
-    </section>
+    </section> -->
       
     <section class="contact" id="contact">
-      <h2 class="heading">LINK</h2>
+      <h2 class="heading">CONTACT</h2>
       <div class="contact-wrapper">
         <a class="contact-form email" href="mailto:ririki727@gmail.com?subject=ポートフォリオサイト見ました！&amp;body=お好きにご記入ください！"><img src="images/email.png"></a>
         <a class="contact-form facebook" href="https://www.facebook.com/ririki.nakabayashi.7"><img src="images/facebook.png"></a>
-        <a class="contact-form instagram" href="https://www.instagram.com/riripoc/"><img src="images/instagram.png"></a>
-        <a class="contact-form ameblo" href="https://ameblo.jp/rinimaruranran/"><img src="images/ameblo.png"></a>
-        <a class="contact-form youtube" href="https://www.youtube.com/channel/UCZMWTn4pUi6LLeXxNvnknPQ?view_as=subscriber"><img src="images/youtube.png"></a>
+        <a class="contact-form twitter" href="https://twitter.com/rinimarublog"><img src="images/twitter.png"></a>
       </div>
     </section>
     <footer class="footer">
